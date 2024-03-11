@@ -1,0 +1,14 @@
+.headerBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.1rem;
+  background-color: #3e3e3e;
+  border-bottom: 1px solid #181818;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
