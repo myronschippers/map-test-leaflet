@@ -4,3 +4,29 @@
   width: 100%;
   border-radius: 2rem;
 }
+
+.marker-title {
+  font-size: 1.1rem;
+}
+
+.marker-button {
+  border-radius: 3px;
+  border: 1px solid #646cff;
+  padding: 0.5em 1em;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #646cff;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.marker-button:hover {
+  background-color: #1a1a1a;
+  border-color: #646cff;
+}
+
+.marker-button:focus,
+.marker-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
